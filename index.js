@@ -20,3 +20,10 @@ function sayHiToGrandma(string){
     return lowercase
   }
 }
+
+function sayHiToGrandma(string){
+  var uppercase = "YES INDEED!"
+  if (string === string.toUpperCase()) {
+    return uppercase
+  }
+}
